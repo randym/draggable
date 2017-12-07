@@ -1,8 +1,8 @@
 import Mirror, {defaultMirrorOption} from './Mirror';
-import Accessibility from './Accessibility';
+import Focusable from './Focusable';
 
 export {
   Mirror,
   defaultMirrorOption,
-  Accessibility,
+  Focusable,
 };
