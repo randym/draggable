@@ -387,6 +387,9 @@ export default class Draggable {
     this.source.classList.remove(this.getClassNameFor('source:dragging'));
     this.sourceContainer.classList.remove(this.getClassNameFor('container:dragging'));
     document.body.classList.remove(this.getClassNameFor('body:dragging'));
+
+    this.dragging = false;
+
   }
 
   /**
